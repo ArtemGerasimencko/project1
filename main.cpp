@@ -12,15 +12,16 @@ int main()
     while(in)
     {
         in.get(ch);
-        cout<<ch;
         if(ch=='0')
         {
             ans=MAX(ans,temp);
             temp=0;
         }
         else
+        if(ch=='1')
             temp++;
     }
+    ans=MAX(ans,temp);
     out<<ans;
     cout<<ans;
 }
