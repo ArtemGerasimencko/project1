@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int a;
+    cout<<"Enter a:";
     cin>>a;
     int n=1;
     while(n<=sqrt(a))

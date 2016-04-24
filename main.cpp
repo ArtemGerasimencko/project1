@@ -11,6 +11,7 @@ int main()
     int ans=0;
     while(in)
     {
+    	ch=-1;
         in.get(ch);
         if(ch=='0')
         {
